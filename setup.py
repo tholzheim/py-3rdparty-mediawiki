@@ -24,7 +24,7 @@ setup(
     install_requires=[
       'gitpython',
       'pywikibot',
-      'pycrypto',
+      'pycryptodome',
       'mwclient',
     ],
     entry_points={

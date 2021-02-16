@@ -74,7 +74,7 @@ class Crypt(object):
         padding = 8 - len(plaintext_to_encrypt) % 8
         plaintext_to_encrypt += chr(padding) * padding
         encoder = self.getCrypt()
-        encrypted = encoder.encrypt(plaintext_to_encrypt)
+        encrypted = encoder.encrypt(bytearray(plaintext_to_encrypt.encode()))
         b64enc=base64.b64encode(encrypted).decode('utf-8')
         return b64enc
 

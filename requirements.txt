@@ -5,7 +5,7 @@ pywikibot==5.4.0
 # Mwclient API
 # https://pypi.org/project/mwclient/
 mwclient
-#https://pypi.org/project/pycrypto/
-pycrypto
+# https://pypi.org/project/pycryptodome/
+pycryptodome
 # https://pypi.org/project/GitPython/
 gitpython
